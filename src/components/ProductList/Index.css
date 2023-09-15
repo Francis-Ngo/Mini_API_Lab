@@ -1,0 +1,30 @@
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    color:red
+  }
+  
+  #product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #product-card h3 {
+    margin: 10px 0;
+  }
+  
+  #product-card p {
+    margin: 5px 0;
+  }
+  
+  
